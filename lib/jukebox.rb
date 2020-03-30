@@ -69,10 +69,9 @@ def run(songs_array)
         answer = gets.chomp
       end
     end
-    if answer == "exit"
-      exit_jukebox
-    end 
-  end
-  
-  
+  if answer == "exit"
+    exit_jukebox
+  end 
 end
+  
+  
