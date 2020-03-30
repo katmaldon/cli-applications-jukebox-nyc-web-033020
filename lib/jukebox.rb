@@ -67,8 +67,11 @@ def run(songs_array)
         play(songs_array)
         puts "Please enter a command:"
         answer = gets.chomp
+      when "exit"
+        exit_jukebox
+      end
     end
   end
-  if answer == "exit"
-  exit_jukebox
+  
+  
 end
