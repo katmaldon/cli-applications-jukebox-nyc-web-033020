@@ -69,7 +69,7 @@ def run(songs_array)
         answer = gets.chomp
       end
     end
-  if answer == "exit"
+  if answer.downcase == "exit"
     exit_jukebox
   end 
 end
